@@ -1,8 +1,10 @@
 fun main(){
+    //The employees are created here
     var emp1 = Employee("Jane Doe", PositionTitle.ADMINISTRATION, true, 27.00, 1);
     var emp2 = Employee("Larry Jackson", PositionTitle.PRODUCTION, false, 22.00, 2);
     var emp3 = Employee("John Smith", PositionTitle.MAINTENANCE, false, 21.00, 3);
 
+    //The functions display and calculate are called from the Employee class here
     emp1.display()
     emp1.calculate(45)
 
